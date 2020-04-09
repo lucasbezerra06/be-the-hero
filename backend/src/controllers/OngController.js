@@ -9,7 +9,7 @@ module.exports = {
             whatsapp,
             city,
             uf
-        } = require.body;
+        } = request.body;
 
         const id = crypto.randomBytes(4).toString('HEX');
 
